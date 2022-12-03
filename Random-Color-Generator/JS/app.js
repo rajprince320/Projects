@@ -7,7 +7,7 @@ const getColor = () => {
 	document.getElementById("color-code").style.color = randomeCode;
 
 	// To Copy code to clipboard
-	navigator.clipboard.writeText(randomeCode);
+	// navigator.clipboard.writeText(randomeCode);
 };
 // Envent call
 document.getElementById("btn").addEventListener("click", getColor);
