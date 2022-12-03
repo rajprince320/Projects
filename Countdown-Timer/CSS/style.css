@@ -8,9 +8,10 @@
 .main {
 	width: 100%;
 	height: 100vh;
-	background: url("/IMG/structure_interlacing_pipes_139291_2048x1152.jpg")
+	background: url("/Countdown-Timer/IMG/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg")
 		center center;
 	block-size: cover;
+	background-repeat: no-repeat;
 }
 .overlay {
 	width: 100%;
@@ -18,6 +19,7 @@
 	background-color: rgba(0, 0, 0, 0.2);
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	flex-direction: column;
 	color: white;
 }
